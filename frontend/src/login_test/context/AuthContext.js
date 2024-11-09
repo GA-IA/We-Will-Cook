@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const AuthContext = createContext();
 export default AuthContext;
 
-const api_url = 'http://127.0.0.1:8000/authentication/';
+const api_url = 'https://wwcbackend.vercel.app/authentication/';
 
 export const AuthProvider = ({children}) => {
     let [token, setToken] = useState(localStorage.getItem('auth_token') ? JSON.parse(localStorage.getItem('auth_token')) : null);

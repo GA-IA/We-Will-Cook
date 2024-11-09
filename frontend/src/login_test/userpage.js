@@ -11,7 +11,7 @@ export default function UserPage(){
     let [user,setUser] = useState([]);
     let navigate = useNavigate();
     useEffect(() => {
-        axios.get('http://127.0.0.1:8000/authentication/', 
+        axios.get('https://wwcbackend.vercel.app/authentication/', 
             {
                 headers: 
                 {

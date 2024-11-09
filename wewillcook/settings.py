@@ -18,7 +18,7 @@ import os
 #region Core
 SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = os.environ.get('DEBUG') == 'True'
-FRONTEND_URL = 'wwc.wewillcook.vercel.app'
+FRONTEND_URL = 'wwcwewillcook.vercel.app'
 
 ALLOWED_HOSTS = ['.vercel.app','127.0.0.1']
 #endregion
