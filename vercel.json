@@ -10,5 +10,10 @@
       "src": "/(.*)",
       "dest": "wewillcook/wsgi.py"
     }
-  ]
+  ],
+  "functions":{
+    "wewillcook/wsgi.py":{
+      "maxDuration": 59
+    }
+  }
 }
