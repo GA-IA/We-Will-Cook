@@ -18,9 +18,9 @@ import os
 #region Core
 SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = os.environ.get('DEBUG') == 'True'
-FRONTEND_URL = 'http://localhost:3000'
+FRONTEND_URL = 'wwc.wewillcook.vercel.app'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app','127.0.0.1']
 #endregion
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
