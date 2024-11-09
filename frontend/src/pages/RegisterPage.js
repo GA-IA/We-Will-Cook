@@ -67,7 +67,7 @@ export default function RegisterPage() {
           password
         });
         //setTimeout(() => navigate('/login'), 1000);
-        axios.post(api_url + 'login/',{
+        axios.post(api_url+'login/',{
           username,
           password
         }).then((response)=>{
