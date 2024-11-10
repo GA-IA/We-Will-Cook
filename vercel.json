@@ -1,20 +1,20 @@
 {
-    "builds": [
-        {
-            "src": "wewillcook/wsgi.py",
-            "use": "@vercel/python",
-        }
-    ],
+  "builds": [
+    {
+      "src": "wewillcook/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
   "routes": [
     {
       "src": "/(.*)",
       "dest": "wewillcook/wsgi.py"
     }
   ],
-    "regions": ["sin1"],
-    "functions": {
+  "regions": ["sin1"],
+  "functions": {
     "wewillcook/wsgi.py": {
       "maxDuration": 30
     }
-}
+  }
 }
