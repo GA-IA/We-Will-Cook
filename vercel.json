@@ -15,5 +15,6 @@
     "functions": {
     "authentication/views.py": {
       "maxDuration": 30
-    },
+    }
+}
 }
