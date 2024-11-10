@@ -3,11 +3,6 @@
         {
             "src": "wewillcook/wsgi.py",
             "use": "@vercel/python",
-            "functions": {
-    "authentication/views.py": {
-      "maxDuration": 30
-    }
-}
         }
     ],
   "routes": [
@@ -16,5 +11,10 @@
       "dest": "wewillcook/wsgi.py"
     }
   ],
-    "regions": ["sin1"]
+    "regions": ["sin1"],
+    "functions": {
+    "wewillcook/wsgi.py": {
+      "maxDuration": 30
+    }
+}
 }
